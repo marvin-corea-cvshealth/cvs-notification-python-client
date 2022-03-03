@@ -1,0 +1,27 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cvs-notification-python-client
+  title: Python Email Notification Service
+  description: A client for the email notification API
+  tags:
+    - python
+    - email
+    - notifications
+    - client
+    - library
+  links:
+    - url: https://github.com/marvin-corea-cvshealth/cvs-notification-python-client
+      title: Github Repo
+      icon: github
+    - url: http://www.google.com
+      title: Admin Panel 
+      icon: code
+  annotations:
+    github.com/project-slug: marvin-corea-cvshealth/cvs-notification-python-client
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  lifecycle: experimental
+  owner: devsecops
+  system: notifications
